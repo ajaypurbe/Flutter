@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:si_calculator/screen/sicalculator.dart';
+import 'package:si_calculator/screen/addnumber.dart';
+//import 'package:si_calculator/screen/sicalculator.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: SiCalculator(),
+      home: AddNumber(),
     );
   }
 }
