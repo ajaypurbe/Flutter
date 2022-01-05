@@ -41,7 +41,7 @@ class _LonglistState extends State<Longlist> {
                 )),
           );
         },
-        separatorBuilder: (context, index) => Divider(
+        separatorBuilder: (context, index) => const Divider(
           thickness: 1,
           color: Colors.amber,
         ),
