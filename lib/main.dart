@@ -15,9 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
-      home: SigInPage(
-        
-      ),
+      home: const SigInPage(),
     );
   }
 }
