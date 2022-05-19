@@ -12,6 +12,7 @@ class SigInPage extends StatelessWidget {
       body: Padding(
         padding: EdgeInsets.all(16),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Container(
@@ -20,11 +21,17 @@ class SigInPage extends StatelessWidget {
                 height: 100,
               ),
             ),
+            const SizedBox(
+              height: 10,
+            ),
             Container(
               color: Color.fromARGB(255, 17, 193, 46),
               child: const SizedBox(
                 height: 100,
               ),
+            ),
+            const SizedBox(
+              height: 10,
             ),
             Container(
               color: Color.fromRGBO(36, 7, 255, 1),
